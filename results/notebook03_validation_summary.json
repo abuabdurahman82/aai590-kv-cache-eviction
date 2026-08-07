@@ -1,0 +1,88 @@
+{
+  "rows": 680,
+  "unique_validation_records": 40,
+  "statuses": {
+    "observed": 680
+  },
+  "policies": [
+    "fifo",
+    "full",
+    "h2o",
+    "learned_block",
+    "sink_recent"
+  ],
+  "budgets": [
+    1024,
+    1025,
+    2048,
+    2049,
+    4096,
+    4097,
+    8192,
+    8193
+  ],
+  "exact_match_unique_values": [
+    0.0
+  ],
+  "substring_match_unique_values": [
+    0.0,
+    1.0
+  ],
+  "policy_summary": [
+    {
+      "policy": "fifo",
+      "rows": 160,
+      "all_observed": true,
+      "mean_retained_fraction": 0.75766477,
+      "mean_memory_reduction_fraction": 0.24233523,
+      "mean_elapsed_seconds": 0.64310707,
+      "mean_policy_overhead_seconds": 0.02615517,
+      "exact_match": 0.0,
+      "substring_match": 0.075
+    },
+    {
+      "policy": "full",
+      "rows": 40,
+      "all_observed": true,
+      "mean_retained_fraction": 1.0,
+      "mean_memory_reduction_fraction": 0.0,
+      "mean_elapsed_seconds": 0.62440797,
+      "mean_policy_overhead_seconds": 0.0042863,
+      "exact_match": 0.0,
+      "substring_match": 0.1
+    },
+    {
+      "policy": "h2o",
+      "rows": 160,
+      "all_observed": true,
+      "mean_retained_fraction": 0.75766477,
+      "mean_memory_reduction_fraction": 0.24233523,
+      "mean_elapsed_seconds": 5.85873197,
+      "mean_policy_overhead_seconds": 4.95997101,
+      "exact_match": 0.0,
+      "substring_match": 0.1
+    },
+    {
+      "policy": "learned_block",
+      "rows": 160,
+      "all_observed": true,
+      "mean_retained_fraction": 0.74153226,
+      "mean_memory_reduction_fraction": 0.25846774,
+      "mean_elapsed_seconds": 0.73078393,
+      "mean_policy_overhead_seconds": 0.10954631,
+      "exact_match": 0.0,
+      "substring_match": 0.0
+    },
+    {
+      "policy": "sink_recent",
+      "rows": 160,
+      "all_observed": true,
+      "mean_retained_fraction": 0.75764189,
+      "mean_memory_reduction_fraction": 0.24235811,
+      "mean_elapsed_seconds": 0.64336267,
+      "mean_policy_overhead_seconds": 0.02639485,
+      "exact_match": 0.0,
+      "substring_match": 0.075
+    }
+  ]
+}

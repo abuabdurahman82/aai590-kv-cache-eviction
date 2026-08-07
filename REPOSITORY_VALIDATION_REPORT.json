@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "canonical_notebooks": 6,
+  "compiled_notebook_code_cells": {
+    "00_foundations_environment_eda.ipynb": 10,
+    "01_evicting_cache_core_tests.ipynb": 8,
+    "02_t4_ruler_baseline_sweeps.ipynb": 8,
+    "03_rtx_pro6000_controlled_learned_eviction.ipynb": 7,
+    "04_a100_locked_test_serving.ipynb": 8,
+    "05_results_pareto_and_reporting.ipynb": 5
+  },
+  "compiled_kvcore_modules": 13,
+  "excluded_runtime_artifacts_found": []
+}

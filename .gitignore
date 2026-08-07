@@ -1,0 +1,29 @@
+# Python and notebook transient files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Credentials and local runtime configuration
+.env
+.env.*
+/content/
+/drive/
+
+# Large runtime artifacts (keep only artifacts/README.md)
+artifacts/*
+!artifacts/README.md
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.jsonl
+*.log
+traces/
+cache_snapshots/
+checkpoints/
+
+# Do not commit arbitrary archives; the Colab core bundle is intentionally versioned.
+*.zip
+!kvcore_bundle.zip
